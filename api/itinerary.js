@@ -35,4 +35,4 @@ Day 2 | 10 AM | Beach Swimming`;
     }
 });
 
-export default serverless(app);
+export default app;
