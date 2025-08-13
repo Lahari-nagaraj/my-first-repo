@@ -10,7 +10,7 @@ document.getElementById("travelForm").addEventListener("submit", async (e) => {
   document.getElementById("results").classList.add("d-none");
 
   try {
-    const response = await fetch("http://localhost:3001/api/itinerary", {
+    const response = await fetch("/api/server/itinerary", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

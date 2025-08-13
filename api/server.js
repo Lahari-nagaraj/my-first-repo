@@ -35,7 +35,4 @@ Day 2 | 10 AM | Beach Swimming`;
     }
 });
 
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+export default serverless(app);
